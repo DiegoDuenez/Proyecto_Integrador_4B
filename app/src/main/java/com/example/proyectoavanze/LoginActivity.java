@@ -18,24 +18,6 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
         findViewById(R.id.btn_login).setOnClickListener(this);
         findViewById(R.id.btn_reg_1).setOnClickListener(this);
 
-        /*Button btn_reg_1 =  findViewById(R.id.btn_reg_1);
-        Button btn_login = findViewById(R.id.btn_login);
-
-
-
-        btn_reg_1.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(getApplicationContext(), RegistroActivity.class);
-                startActivity(intent);
-            }
-        });
-        btn_login.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Toast.makeText(getApplicationContext(), "La cuenta no es valida", Toast.LENGTH_LONG);
-            }
-        });*/
 
     }
 
